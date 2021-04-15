@@ -1,5 +1,13 @@
-// Usually leave this one in English
-"NSHumanReadableCopyright" = "Copyright © 2009-2019 aONe";
+
+/* Usually leave this one in English */
+"NSHumanReadableCopyright" = "Copyright © 2009-2021 aONe";
+
+/* Access request descriptions */
+"NSDesktopFolderUsageDescription" = "Keka requires Desktop access to work with it's files.";
+"NSDocumentsFolderUsageDescription" = "Keka requires Documents access to work with it's files.";
+"NSDownloadsFolderUsageDescription" = "Keka requires Downloads access to work with it's files.";
+"NSNetworkVolumesUsageDescription" = "Keka requires network volumes access to work with it's files.";
+"NSRemovableVolumesUsageDescription" = "Keka requires removable volumes access to work with it's files.";
 
 /* File types */
 "7Z Archive" = "7Z Arşivi";
@@ -12,6 +20,10 @@
 "ZIPX Archive" = "ZIPX Arşivi";
 "XZ Archive" = "XZ Arşivi";
 "XZ Tarball Archive" = "XZ Tarball Arşivi";
+"Brotli Archive" = "Brotli Archive";
+"Brotli Tarball Archive" = "Brotli Tarball Archive";
+"Zstandard Archive" = "Zstandard Archive";
+"Zstandard Tarball Archive" = "Zstandard Tarball Archive";
 "RAR Archive" = "RAR Arşivi";
 "RAR Legacy Archive Volume" = "RAR Eski Arşiv Hacmi";
 "Generic Archive Volume" = "Genel Arşiv Hacmi";
@@ -22,6 +34,8 @@
 "GZIP Archive" = "GZIP Arşivi";
 "GZIP Tarball Archive" = "GZIP Tarball Arşivi";
 "TAR Archive" = "TAR Arşivi";
+"LRZIP Archive" = "LRZIP Arşivi";
+"LRZIP Tarball Archive" = "LRZIP Tarball Arşivi";
 "CPIO Archive" = "CPIO Arşivi";
 "CPGZ Archive" = "CPGZ Arşivi";
 "PAX Archive" = "PAX Arşivi";
@@ -29,7 +43,8 @@
 "ISO Disk Image" = "ISO Disk İmajı";
 "LHA Archive" = "LHA Arşivi";
 "Windows EXE File" = "Windows EXE Dosyası";
-"Window Cabinet File" = "Pencere Dolabı Dosyası";
+"Windows Cabinet File" = "Windows Dolabı Dosyası";
+"Windows Installer Package" = "Windows Installer Package";
 "WIM Disk Image" = "WIM Disk İmajı";
 "Comic Book RAR Archive" = "Çizgi Roman RAR Arşivi";
 "Comic Book ZIP Archive" = "Çizgi Roman ZIP Arşivi";
@@ -39,4 +54,7 @@
 "Android Application Package" = "Android Uygulama Paketi";
 "Cross-Platform Installer Module (XPI)" = "Cross-Platform Installer Module (XPI)";
 "APPX Archive" = "APPX Arşivi";
-"Keka WorkFlow" = "Keka İş Akışı";
+"Safari extension" = "Safari extension";
+"ACE Archive" = "ACE Archive";
+"XIP Secure Archive" = "XIP Secure Archive";
+"Keka Extraction Package" = "Keka Extraction Package";

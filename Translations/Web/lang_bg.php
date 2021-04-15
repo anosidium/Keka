@@ -7,6 +7,11 @@ $content_language_locale = "bg";
 // Translated by Deyan Marinov (https://github.com/deyanm)
 //
 //
+// Set $show_content_bottom_translator as true if you want to appear in the bottom of the page
+$show_content_bottom_translator = true;
+$content_bottom_translator = 'Превод на български: <a href="https://github.com/deyanm">Деян Маринов</a>.';
+//
+//
 
 // General
 $content_download = "Свали";
@@ -17,10 +22,11 @@ $content_changelog = "Промени";
 $content_title = "macOS файлов архиватор";
 
 // Download
-$content_plataform = "Изисква $version_replace или по-нова";
+$content_platform = "Изисква $version_replace или по-нова";
 $content_download_text = "Съхрани повече, сподели поверително";
 $content_download_love = "Харесва ли ти?";
 $content_download_legacy = "Стари версии";
+$content_download_helper = "Helper";
 
 // Like
 $content_donation_button = "Направи дарение";
@@ -29,15 +35,14 @@ $content_donation_mas = "Ако купиш Keka от App Store, ще поддъ�
 $content_donation_paypal = "Ако не харесваш MAS (Mac App Store) или искаш да си поиграеш с Keka<br />и също така харесваш проекта и искаш да дадеш малко любов, можеш да дариш с PayPal.";
 
 // Beta
-$content_plataform_beta = "Beta";
+$content_platform_beta = "Beta";
 $content_beta_title = "Beta версия на Keka";
 $content_beta_text = "Можеш да изпробваш най-новите възможности на Keka преди да са пуснати.<br />Ако си открил проблем или искаш нещо да докладваш, отиди на ";
 $content_beta_unavailable = "В момента няма налична beta версия.";
 $content_beta_up = "Свали последната версия";
 
-
 // Legacy
-$content_plataform_legacy =  "За $version_replace";
+$content_platform_legacy =  "За $version_replace";
 $content_legacy_title = "Стари версии на Keka";
 $content_legacy_text = 'През годините твоят Mac ще остарява и няма да поддържа<br />най-новата Keka, но се успокой <i class="fa fa-coffee" aria-hidden="true"></i>, старите версии ще бъдат тук.';
 
@@ -50,6 +55,16 @@ $content_info_text2 = "Споделяй сигурно само с парола 
 $content_info_text3 = "Ако файловете са наистина големи и не се събират на твоят имейл или сървъв, просто ги раздели на парчета.<br />Не се притеснявай, те все още могат да се обединят в един :)";
 $content_info_compression = "Keka може да създава файлове в следните формати:";
 $content_info_extraction = "И разархивирай всички тези формати:";
+
+// Default app
+$content_defaultapp_title = "Set Keka as the default extraction application";
+$content_defaultapp_text = 'Keka <a href="https://github.com/aonez/Keka/wiki/Default-application">needs a helper <i class="far fa-question-circle"></i></a> to set itself as the default application.<br />Simply download and extract it, move it to the desktop and then open it.';
+
+// Privacy Policy
+$content_privacypolicy_title = 'Privacy Policy';
+
+// Terms of use
+$content_termsofuse_title = 'Terms of Use';
 
 // Main content of the page
 $content_context_menu = "Контекстово меню";
@@ -65,6 +80,6 @@ $content_404_start = "Можете да отидете на <a href=\"https://ww
 $content_404_more = "или искаш това?";
 
 // Bottom info
-$content_bottom_copying = 'Всички права запазени. Превод на български: <a href="https://github.com/deyanm">Деян Маринов</a>';
+$content_bottom_copying = 'Всички права запазени.';
 
 ?>

@@ -1,5 +1,13 @@
-// Usually leave this one in English
-"NSHumanReadableCopyright" = "Copyright © 2009-2019 aONe";
+
+/* Usually leave this one in English */
+"NSHumanReadableCopyright" = "Copyright © 2009-2021 aONe";
+
+/* Access request descriptions */
+"NSDesktopFolderUsageDescription" = "Keka richiede l'accesso alla Scrivania per lavorare con i suoi file.";
+"NSDocumentsFolderUsageDescription" = "Keka richiede l'accesso a Documenti per lavorare con i suoi file.";
+"NSDownloadsFolderUsageDescription" = "Keka richiede l'accesso a Download per lavorare con i suoi file.";
+"NSNetworkVolumesUsageDescription" = "Keka richiede l'accesso ai volumi di rete per lavorare con i loro file.";
+"NSRemovableVolumesUsageDescription" = "Keka richiede l'accesso ai volumi rimovibili per lavorare con i loro file.";
 
 /* File types */
 "7Z Archive" = "Archivio 7Z";
@@ -12,6 +20,10 @@
 "ZIPX Archive" = "Archivio ZIPX";
 "XZ Archive" = "Archivio XZ";
 "XZ Tarball Archive" = "Archivio TAR compresso XZ";
+"Brotli Archive" = "Archivio Brotli";
+"Brotli Tarball Archive" = "Archivio Brotli Tarball";
+"Zstandard Archive" = "Archivio Zstandard";
+"Zstandard Tarball Archive" = "Archivio Zstandard Tarball";
 "RAR Archive" = "Archivio RAR";
 "RAR Legacy Archive Volume" = "Archivio volume RAR (Legacy)";
 "Generic Archive Volume" = "Archivio volume generico";
@@ -22,6 +34,8 @@
 "GZIP Archive" = "Archivio GZIP";
 "GZIP Tarball Archive" = "Archivio TAR compresso GZIP";
 "TAR Archive" = "Archivio TAR";
+"LRZIP Archive" = "Archivio LRZIP";
+"LRZIP Tarball Archive" = "Archivio TAR compresso LRZIP";
 "CPIO Archive" = "Archivio CPIO";
 "CPGZ Archive" = "Archivio CPGZ";
 "PAX Archive" = "Archivio PAX";
@@ -29,7 +43,8 @@
 "ISO Disk Image" = "Immagine disco ISO";
 "LHA Archive" = "Archivio LHA";
 "Windows EXE File" = "File EXE (Windows)";
-"Window Cabinet File" = "File CAB (Windows)";
+"Windows Cabinet File" = "File CAB (Windows)";
+"Windows Installer Package" = "Pacchetto di installazione di Windows";
 "WIM Disk Image" = "Immagine disco WIM";
 "Comic Book RAR Archive" = "Archivio RAR Comic Book";
 "Comic Book ZIP Archive" = "Archivio ZIP Comic Book";
@@ -37,6 +52,9 @@
 "JAR Archive" = "Archivio JAR";
 "WAR Archive" = "Archivio WAR";
 "Android Application Package" = "File APK (Android)";
-"Cross-Platform Installer Module (XPI)" = "Cross-Platform Installer Module (XPI)";
+"Cross-Platform Installer Module (XPI)" = "Modulo di installazione multipiattaforma (XPI)";
 "APPX Archive" = "Archivio APPX";
-"Keka WorkFlow" = "Flusso di lavoro di Keka";
+"Safari extension" = "Estensione di Safari";
+"ACE Archive" = "Archivio ACE";
+"XIP Secure Archive" = "Archivio sicuro XIP";
+"Keka Extraction Package" = "Pacchetto di estrazione di Keka";

@@ -1,5 +1,13 @@
-// Usually leave this one in English
-"NSHumanReadableCopyright" = "Copyright © 2009-2019 aONe";
+
+/* Usually leave this one in English */
+"NSHumanReadableCopyright" = "Copyright © 2009-2021 aONe";
+
+/* Access request descriptions */
+"NSDesktopFolderUsageDescription" = "Keka requires Desktop access to work with it's files.";
+"NSDocumentsFolderUsageDescription" = "Keka requires Documents access to work with it's files.";
+"NSDownloadsFolderUsageDescription" = "Keka requires Downloads access to work with it's files.";
+"NSNetworkVolumesUsageDescription" = "Keka requires network volumes access to work with it's files.";
+"NSRemovableVolumesUsageDescription" = "Keka requires removable volumes access to work with it's files.";
 
 /* File types */
 "7Z Archive" = "Архив 7Z";
@@ -12,6 +20,10 @@
 "ZIPX Archive" = "Архив ZIPX";
 "XZ Archive" = "Архив XZ";
 "XZ Tarball Archive" = "Сжатый TAR-архив XZ";
+"Brotli Archive" = "Архив Brotli";
+"Brotli Tarball Archive" = "Сжатый TAR-архив Brotli";
+"Zstandard Archive" = "Архив Zstandard";
+"Zstandard Tarball Archive" = "Сжатый TAR-архив Zstandard";
 "RAR Archive" = "Архив RAR";
 "RAR Legacy Archive Volume" = "Архив RAR старого формата";
 "Generic Archive Volume" = "Том архива";
@@ -22,6 +34,8 @@
 "GZIP Archive" = "Архив GZIP";
 "GZIP Tarball Archive" = "Сжатый TAR-архив GZIP";
 "TAR Archive" = "Архив TAR";
+"LRZIP Archive" = "Архив LRZIP";
+"LRZIP Tarball Archive" = "Сжатый TAR-архив LRZIP";
 "CPIO Archive" = "Архив CPIO";
 "CPGZ Archive" = "Архив CPGZ";
 "PAX Archive" = "Архив PAX";
@@ -29,14 +43,18 @@
 "ISO Disk Image" = "Образ диска ISO";
 "LHA Archive" = "Архив LHA";
 "Windows EXE File" = "Файл Windows EXE";
-"Window Cabinet File" = "Файл Window Cabinet";
+"Windows Cabinet File" = "Файл Windows Cabinet";
+"Windows Installer Package" = "Пакет Windows Installer";
 "WIM Disk Image" = "Образ диска WIM";
 "Comic Book RAR Archive" = "Архив Comic Book RAR";
 "Comic Book ZIP Archive" = "Архив Comic Book ZIP";
-"iOS App" = "Программа iOS";
+"iOS App" = "Приложение iOS";
 "JAR Archive" = "Архив JAR";
 "WAR Archive" = "Архив WAR";
-"Android Application Package" = "Android Application Package";
-"Cross-Platform Installer Module (XPI)" = "Cross-Platform Installer Module (XPI)";
+"Android Application Package" = "Пакет приложений для Android";
+"Cross-Platform Installer Module (XPI)" = "Кроссплатформенный установочный модуль (XPI)";
 "APPX Archive" = "Архив APPX";
-"Keka WorkFlow" = "Документ процесса Keka";
+"Safari extension" = "Расширение Safari";
+"ACE Archive" = "Архив ACE";
+"XIP Secure Archive" = "Безопасный архив XIP";
+"Keka Extraction Package" = "Keka Extraction Package";

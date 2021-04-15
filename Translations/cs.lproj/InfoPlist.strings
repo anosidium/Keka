@@ -1,0 +1,60 @@
+
+/* Usually leave this one in English */
+"NSHumanReadableCopyright" = "Copyright © 2009-2021 aONe";
+
+/* Access request descriptions */
+"NSDesktopFolderUsageDescription" = "Keka potřebuje přístup ke složce Plocha pro práci s těmito soubory.";
+"NSDocumentsFolderUsageDescription" = "Keka potřebuje přístup ke složce Dokumenty pro práci s těmito soubory.";
+"NSDownloadsFolderUsageDescription" = "Keka potřebuje přístup ke složce Stahování pro práci s těmito soubory.";
+"NSNetworkVolumesUsageDescription" = "Keka potřebuje přístup k síťovým svazkům pro práci s těmito soubory.";
+"NSRemovableVolumesUsageDescription" = "Keka potřebuje přístup k výměnným svazkům pro práci s těmito soubory.";
+
+/* File types */
+"7Z Archive" = "Archiv 7Z";
+"LZMA Archive" = "Archiv LZMA";
+"LZOP Archive" = "Archiv LZOP";
+"LZOP Tarball Archive" = "LZOP Tarball";
+"LZIP Archive" = "Archiv LZIP";
+"LZIP Tarball Archive" = "LZIP Tarball";
+"ZIP Archive" = "Archiv ZIP";
+"ZIPX Archive" = "Archiv ZIPX";
+"XZ Archive" = "Archiv XZ";
+"XZ Tarball Archive" = "XZ Tarball";
+"Brotli Archive" = "Brotli Archive";
+"Brotli Tarball Archive" = "Brotli Tarball Archive";
+"Zstandard Archive" = "Zstandard Archive";
+"Zstandard Tarball Archive" = "Zstandard Tarball Archive";
+"RAR Archive" = "Archiv AR";
+"RAR Legacy Archive Volume" = "Zpětně kompatibilní archivní svazek RAR";
+"Generic Archive Volume" = "Obecný archivní svazek";
+"BZIP2 Archive" = "Archiv BZIP2";
+"BZIP2 Tarball Archive" = "BZIP2 Tarball";
+"BZIP Archive" = "Archiv BZIP";
+"BZIP Tarball Archive" = "BZIP Tarball";
+"GZIP Archive" = "Archiv GZIP";
+"GZIP Tarball Archive" = "GZIP Tarball";
+"TAR Archive" = "Archiv TAR";
+"LRZIP Archive" = "Archiv LRZIP";
+"LRZIP Tarball Archive" = "LRZIP Tarball";
+"CPIO Archive" = "Archiv CPIO";
+"CPGZ Archive" = "Archiv CPGZ";
+"PAX Archive" = "Archiv PAX";
+"DMG Disk Image" = "Obraz disku DMG";
+"ISO Disk Image" = "Obraz disku ISO";
+"LHA Archive" = "Archiv LHA";
+"Windows EXE File" = "Soubor Windows EXE";
+"Windows Cabinet File" = "Soubor Windows CAB";
+"Windows Installer Package" = "Balíček Instalační služby systému Windows";
+"WIM Disk Image" = "Obraz disku WIM";
+"Comic Book RAR Archive" = "Archiv Comic Book RAR";
+"Comic Book ZIP Archive" = "Archiv Comic Book ZIP";
+"iOS App" = "iOS aplikace";
+"JAR Archive" = "Archiv JAR";
+"WAR Archive" = "Archiv WAR";
+"Android Application Package" = "Balíček aplikací pro Android";
+"Cross-Platform Installer Module (XPI)" = "Multiplatformní instalační modul (XPI)";
+"APPX Archive" = "Archiv APPX";
+"Safari extension" = "Rozšíření Safari";
+"ACE Archive" = "Archiv ACE";
+"XIP Secure Archive" = "Zabezpečený archiv XIP";
+"Keka Extraction Package" = "Extrakční balíček Keky";

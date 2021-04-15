@@ -7,6 +7,11 @@ $content_language_locale = "ru";
 // Translated by NickKaramoff (nick@karamoff.ru)
 //
 //
+// Set $show_content_bottom_translator as true if you want to appear in the bottom of the page
+$show_content_bottom_translator = true;
+$content_bottom_translator = 'Перевёл <a href="https://karamoff.ru">Никита Карамов</a>.';
+//
+//
 
 // General
 $content_download = "Скачать";
@@ -17,10 +22,11 @@ $content_changelog = "Изменения";
 $content_title = "архиватор файлов для macOS";
 
 // Download
-$content_plataform = "Требуется $version_replace или новее";
+$content_platform = "Требуется $version_replace или новее";
 $content_download_text = "Храните больше, делитесь безопасно";
 $content_download_love = "Понравилось?";
 $content_download_legacy = "Старые версии";
+$content_download_helper = "Helper";
 
 // Like
 $content_donation_button = "Пожертвовать";
@@ -29,15 +35,14 @@ $content_donation_mas = "Покупая Keka в App Store, вы поддержи
 $content_donation_paypal = "Если вам не нравится MAS или вы просто пробуете Keka,<br />но хотите поддержать проект, вы можете пожертвовать деньги через PayPal.";
 
 // Beta
-$content_plataform_beta = "Бета";
+$content_platform_beta = "Бета";
 $content_beta_title = "Бета-версия Keka";
 $content_beta_text = "Вы можете протестировать новые возможности Keka перед релизом.<br />Если вы найдёте баг, следуйте в раздел ";
 $content_beta_unavailable = "На данный момент нет доступных бета-версий.";
 $content_beta_up = "Скачать новейшую версию";
-	
 
 // Legacy
-$content_plataform_legacy =  "Для $version_replace";
+$content_platform_legacy =  "Для $version_replace";
 $content_legacy_title = "Старые версии Keka";
 $content_legacy_text = 'Рано или поздно ваш Mac устареет и не будет поддерживать<br />новые версии Keka, но не волнуйтесь <i class="fa fa-coffee" aria-hidden="true"></i>, старые версии будут здесь.';
 
@@ -50,6 +55,16 @@ $content_info_text2 = "Передавайте данные более безоп
 $content_info_text3 = "Если ваши файлы действительно огромны, и не помещаются в электронное письмо или на сервер,поделите их на части.<br />Не волнуйтесь, они вновь объединятся в исходный файл :)";
 $content_info_compression = "Keka может создавать файлы этих форматов:";
 $content_info_extraction = "И распаковывать эти форматы:";
+
+// Default app
+$content_defaultapp_title = "Установить Keka в качестве приложения для извлечения по умолчанию";
+$content_defaultapp_text = 'Keka <a href="https://github.com/aonez/Keka/wiki/Default-application">нужен помощник <i class="far fa-question-circle"></i></a>, чтобы установить себя в качестве приложения по умолчанию.<br />Просто скачайте и распакуйте его, переместите на рабочий стол и затем откройте.';
+
+// Privacy Policy
+$content_privacypolicy_title = 'Политика конфиденциальности';
+
+// Terms of use
+$content_termsofuse_title = 'Условия пользования';
 
 // Main content of the page
 $content_context_menu = "Контекстное меню";
@@ -65,6 +80,6 @@ $content_404_start = "Вы можете перейти на <a href=\"https://ww
 $content_404_more = "или, может, вы ищете это?";
 
 // Bottom info
-$content_bottom_copying = 'Все права защищены. Перевёл <a href="https://karamoff.ru">Никита Карамов</a>';
+$content_bottom_copying = 'Все права защищены.';
 
 ?>

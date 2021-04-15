@@ -1,7 +1,14 @@
+
 "_BASE_USED_" = "it";
 /* Use the _ADVANCED_EXTRA_WIDTH_ (if needed) to fit the method description properly */
 "_ADVANCED_EXTRA_WIDTH_" = "0.0";
-/* "_PREFERENCES_EXTRA_WIDTH_" = "0.0"; */
+/* Use the _PREFERENCES_EXTRA_WIDTH_ (if needed) to fit the action to perform description properly */
+"_PREFERENCES_EXTRA_WIDTH_" = "0.0";
+"General" = "Generale";
+"File Access" = "Accesso ai file";
+"Performance" = "Prestazioni";
+"Finder Extension" = "Estensione del Finder";
+"Love" = "Sostegno";
 "OK" = "OK";
 "Done" = "Fine";
 "Yes" = "Sì";
@@ -25,6 +32,7 @@
 "File \"%@\" created" = "File \"%@\" creato";
 "Compression fail" = "Compressione non riuscita";
 "File \"%@\" cannot be created" = "File \"%@\" non può essere creato";
+"\n(using fallback folder)" = "\n(utilizzando la cartella di fallback)";
 "Operation not implemented" = "Operazione non implementata";
 "Performing operation..." = "Esecuzione dell'operazione...";
 "Waiting..." = "Attendere...";
@@ -38,9 +46,9 @@
 "Time elapsed: %d:%@%d:%@%d hours%@" = "Tempo trascorso: %d:%@%d:%@%d ore%@";
 "Time elapsed: %d:%@%d minutes%@" = "Tempo trascorso: %d:%@%d minuti%@";
 "Time elapsed: %d seconds%@" = "Tempo trascorso: %d secondi%@";
-"%d seconds" = "%d secondi";
-"%d:%@%d minutes" = "%d:%@%d minuti";
-"%d:%@%d:%@%d hours" = "%d:%@%d:%@%d ore";
+"%.0f seconds" = "%.0f secondi";
+"%i:%02i minutes" = "%i:%02i minuti";
+"%i:%02i:%02i hours" = "%i:%02i:%02i ore";
 "Pause" = "Pausa";
 "Continue" = "Continua";
 "Operation paused" = "Operazione in pausa";
@@ -51,7 +59,7 @@
 "Choose a name and folder to start the compression" = "Scegli un nome e la cartella per avviare la compressione";
 "Creation of \"%@\" failed" = "Creazione di \"%@\" non riuscita";
 "Creating \"%@\"" = "Creazione \"%@\"";
-"Prepearing extraction..." = "Preparazione estrazione...";
+"Preparing extraction..." = "Preparazione estrazione...";
 "Choose a folder to extract this file" = "Scegli una cartella per estrarre questo file";
 "Choose where do you want to extract \"%@\"" = "Scegli dove vuoi estrarre \"%@\"";
 "Select all the volumes from \"%@\" or the folder that contains them" = "Seleziona tutti i volumi da \"%@\" o la cartella che li contiene";
@@ -69,20 +77,24 @@
 "Extract \"%@\" to..." = "Estrai \"%@\" a...";
 "Extract as:" = "Estrai come:";
 "Extract" = "Estrai";
-" - Remaining: Calculating..." = " - Rimanente: Calcolo...";
-" - Remaining: About one second" = " - Rimanente: Circa un secondo";
-" - Remaining: About %d seconds" = " - Rimanente: Circa %d secondi";
-" - Remaining: About 1 minute" = " - Rimanente: Circa 1 minuto";
-" - Remaining: About %d minutes" = " - Rimanente: Circa %d minuti";
-" - Remaining: About 1 hour" = " - Rimanente: Circa 1 ora";
-" - Remaining: About %d hours" = " - Rimanente: Circa %d ore";
-" - Remaining: About 1 day" = " - Rimanente: Circa 1 giorno";
-" - Remaining: About %d days" = " - Rimanente: Circa %d giorni";
-" - Remaining: About 1 year" = " - Rimanente: Circa 1 anno";
-" - Remaining: About %d years" = " - Rimanente: Circa %d anni";
-" - Remaining: Less than one second" = " - Rimanente: Meno di un secondo";
+"About %i seconds" = "Circa %i secondi";
+"About %i minutes" = "Circa %i minuti";
+"About %i hours" = "Circa %i ore";
+"About %i days" = "Circa %i giorni";
+"About %i weeks" = "Circa %i settimane";
+"About %i months" = "Circa %i mesi";
+"About %i years" = "Circa %i anni";
+"About a minute" = "Circa un minuto";
+"About an hour" = "Circa un'ora";
+"About a day" = "Circa un giorno";
+"About a week" = "Circa una settimana";
+"About a month" = "Circa un mese";
+"About a year" = "Circa un anno";
+"Finishing..." = "Concludo...";
 "Can't show progress time..." = "Non posso mostrare il tempo di avanzamento...";
 "Password for \"%@\"" = "Password per \"%@\"";
+"Format" = "Formato";
+"Method" = "Metodo";
 "Method:" = "Metodo:";
 "No compression" = "Nessuna compressione";
 "Fastest, less compression" = "Velocissimo, minore compressione";
@@ -99,7 +111,7 @@
 "Custom folder..." = "Cartella personalizzata...";
 "Same as original file" = "Uguale al file originale";
 "Custom name..." = "Nome personalizzato...";
-"Compressed file" = "File compresso";
+"Archive" = "Archivio";
 "Set as default folder" = "Imposta come cartella di default";
 "Perform automatic action" = "Esegui azione automatica";
 "Always compress" = "Comprimi sempre";
@@ -112,9 +124,11 @@
 "Drop here to compress" = "Rilascia qui per comprimere";
 "Binary \"%@\" is not accessible" = "Il binario \"%@\" non è accessibile";
 "The first part \"%@\" can't be found" = "La prima parte \"%@\" non può essere trovata";
+"Unable to extract a folder" = "Impossibile estrarre una cartella";
 "unknown" = "sconosciuto";
 "Unknown error" = "Errore sconosciuto";
 "Error code %d using \"%@\"\n%@" = "Codice errore %d utilizzando \"%@\"\n%@";
+"Keka was unable to create the extraction package" = "Keka non ha potuto creare il pacchetto di estrazione";
 "No errors found" = "Nessun errore trovato";
 "Minor error, the operation may be done well" = "Errore minore, l'operazione può essere fatta bene";
 "Fatal error" = "Errore fatale";
@@ -131,6 +145,7 @@
 "Write error. No permission? No space left?" = "Errore di scrittura. Nessun permesso? Niente spazio libero?";
 "Can't open the file, maybe it's not accessible" = "Impossibile aprire il file, forse non è accessibile";
 "No files matching the mask" = "Nessun file corrispondente alla maschera";
+"There were some read errors" = "Si sono verificati alcuni errori di lettura";
 "Give access" = "Consenti l'accesso";
 "Just folder access" = "Solo accesso alla cartella";
 "Quit" = "Esci";
@@ -138,15 +153,22 @@
 "Keka needs file access" = "Keka ha bisogno dell'accesso ai file";
 "Give home access" = "Consenti accesso personale";
 "Customize" = "Personalizza";
+"Keka needs access to the source file/s." = "Keka ha bisogno di accedere al/ai file di origine.";
 "In order to work seamlessly with your files, Keka needs local access to the Mac disk." = "Per lavorare senza problemi con i tuoi file, Keka ha bisogno di un accesso locale al disco del Mac.";
 "\nSimply click on \"Give access to Keka\", your disk should already be selected." = "\nFai semplicemente clic su \"Consenti l'accesso a Keka\", il tuo disco dovrebbe già essere selezionato.";
 "Give access to Keka" = "Consenti l'accesso a Keka";
 "Full Mac access (Recommended)" = "Accesso completo al Mac (Consigliato)";
 "Home folder access" = "Accesso alla cartella Inizio";
 "External volumes access" = "Accesso ai volumi esterni";
+"Full Mac" = "Intero Mac";
+"Home folder" = "Cartella Inizio";
+"External volumes" = "Volumi esterni";
+"Show in context menu" = "Mostra nel menu contestuale";
 "External disk: %@" = "Disco esterno: %@";
 "An extension is required" = "È richiesta un'estensione";
 "In order to set Keka as the default application, you need to install an extension. Click on \"More information\" to follow the required steps.\n\nRemember that you can always set Keka as the default application for any format using the Finder's \"Get Info\" panel." = "Per impostare Keka come applicazione di default, è necessario installare un'estensione. Clicca su \"Maggiori informazioni\" per seguire la procedura richiesta.\n\nRicorda che puoi sempre impostare Keka come applicazione di default per qualsiasi formato utilizzando il pannello \"Ottieni informazioni\" del Finder.";
+"Your installed extension is obsolete and you should update it." = "L'estensione installata è obsoleta e dovresti aggiornarla.";
+"Update" = "Aggiorna";
 "Cannot set Keka as default" = "Impossibile impostare Keka come default";
 "The intermediate application failed to launch. There is more information in the Console.app." = "Apertura dell'applicazione intermedia fallita. Maggiori informazioni nell'app Console.";
 "The intermediate application returned an undefined code." = "L'applicazione intermedia ha restituito un codice non definito.";
@@ -155,3 +177,76 @@
 "There were some errors while registering the formats. There is more information in the Console.app." = "Si sono verificati alcuni errori durante la registrazione dei formati. Maggiori informazioni nell'app Console.";
 "The intermediate application can't get access to Keka." = "L'applicazione intermedia non può accedere a Keka.";
 "The intermediate application can't find Keka." = "L'applicazione intermedia non riesce a trovare Keka.";
+"Show in Finder" = "Mostra nel Finder";
+"Delete" = "Elimina";
+"Continue without encryption" = "Continua senza crittografia";
+"The password does not match" = "La password non corrisponde";
+"The password is not properly set and the file cannot be encrypted. You can cancel and set the password again or continue the process without encryption." = "La password non è impostata correttamente e il file non può essere crittografato. È possibile annullare e impostare nuovamente la password o continuare il processo senza crittografia.";
+"Use legacy encryption" = "Utilizza crittografia legacy";
+"Using AES-256 encryption in ZIP" = "Utilizzo crittografia AES-256 in ZIP";
+"Note that most modern operating systems such as macOS (before macOS 11.0 Big Sur) or Windows do not support AES-256 encrypted ZIPs by default.\n\nYou can open those files easily with most third party extraction utilities." = "Nota che la maggior parte dei sistemi operativi moderni come macOS (prima di macOS 11.0 Big Sur) o Windows non supporta i ZIP crittografati AES-256 di default.\n\nPuoi aprire facilmente quei file con la maggior parte delle utility di estrazione di terze parti.";
+"Cannot create the file" = "Impossibile creare il file";
+"Keka has no file access to the source file/s\nGive it access when asked or manually in the Preferences" = "Keka non ha accesso al file sorgente\nConsentire l'accesso quando richiesto o manualmente nelle Preferenze";
+"Give access to the source/s folder/s" = "Consenti l'accesso alla/e cartella/e di origine";
+"Give access to the compressed file" = "Consenti l'accesso al file compresso";
+"The extension is enabled" = "L'estensione è abilitata";
+"The extension is disabled" = "L'estensione è disabilitata";
+"Enable or disable the extension" = "Abilita o disabilita l'estensione";
+"Keka will decide whether to compress or uncompress based on file format and extension. This is the recommended option." = "Keka deciderà se comprimere o decomprimere in base al formato e all'estensione del file. Questa è l'opzione consigliata.";
+"Keka will compress all files, even those that are already compressed. You can compress an already compressed file in automatic mode by dropping it to the bottom part of the drop zone." = "Keka comprimerà tutti i file, anche quelli già compressi. Puoi comprimere un file già compresso in modalità automatica rilasciandolo nella parte inferiore dell'area di rilascio.";
+"Keka will try to extract all files. You can try to extract an unknown file in automatic mode by dropping it in the bottom part of the drop zone." = "Keka proverà ad estrarre tutti i file. Puoi provare a estrarre un file sconosciuto in modalità automatica rilasciandolo nella parte inferiore dell'area di rilascio.";
+"Show the operation log" = "Mostra il log delle operazioni";
+"Unable to process tips" = "Impossibile elaborare i pagamenti";
+"Already tipping a monthly %@" = "Stai già offrendo una ricompensa mensile di %@";
+"Send a monthly %@ tip" = "Invia una ricompensa mensile di %@";
+"Send a %@ tip" = "Invia una ricompensa di %@";
+"Give Keka some love ♥" = "Sostieni lo sviluppo di Keka ♥";
+"All extractions will be expanded at this location." = "Tutte le operazioni verranno estratte in questa cartella.";
+"All compressions will be stored at this location." = "Tutte le operazioni verranno compresse in questa cartella.";
+"You'll be asked where to extract each operation." = "Ti verrà chiesto dove estrarre ciascuna operazione.";
+"You'll be asked where to compress each operation." = "Ti verrà chiesto dove comprimere ogni operazione.";
+"If Keka has File Access it will execute the operation near the source file/s, otherwise it will ask for a location. You can set Keka's File Access in the Preferences tab so this option works properly." = "Se Keka ha accesso ai file eseguirà l'operazione accanto al file sorgente, altrimenti chiederà dove eseguire l'operazione. Puoi impostare l'accesso ai file a Keka nella scheda Preferenze in modo che questa opzione funzioni correttamente.";
+"Keka has no file access to the destination folder so it needs to ask for a location.\nYou can add access to this and other folders in Keka's Preferences File Access pane." = "Keka non ha accesso ai file della cartella di destinazione e ha bisogno di chiedere dove eseguire l'operazione.\nPuoi dare accesso a questa e ad altre cartelle nel pannello Accesso ai file delle Preferenze di Keka.";
+"The characters %@ are not compatible with the %@ format" = "I caratteri %@ non sono compatibili con il formato %@";
+"The character %@ is not compatible with the %@ format" = "Il carattere %@ non è compatibile con il formato %@";
+"Stop compressing" = "Interrompi compressione";
+"Stop extracting" = "Interrompi estrazione";
+"Resume compressing" = "Riprendi compressione";
+"Resume extracting" = "Riprendi estrazione";
+"Pause compressing" = "Metti in pausa compressione";
+"Pause extracting" = "Metti in pausa estrazione";
+"Compression paused" = "Compressione in pausa";
+"Extraction paused" = "Estrazione in pausa";
+"Waiting for password" = "In attesa della password";
+"On queue" = "In coda";
+"Applying quarantine..." = "Applico quarantena...";
+"%@.\n\nPlease get in contact with the developers." = "%@.\n\nMettersi in contatto con gli sviluppatori.";
+"Report" = "Report";
+"Report via mail" = "Report via mail";
+
+/*
+// MAS tips
+// Note this will be used in Apple's servers
+// Apple needs to have MAS translated in this language so this strings can be used
+// The language used in MAS/AppleID will be used in Keka's tip strings and may not match Keka's localization
+// Note that the short string is limited to 30 characters and the long string is limited to 45 characters
+// Emojis cannot be used in these strings :(
+*/
+"Monthly sip of coffee" = "Un sorso di caffè al mese";
+"Gift Keka a sip of coffee each month" = "Regala a Keka un sorso di caffè ogni mese";
+"Monthly coffee" = "Caffè mensile";
+"Gift Keka a coffee each month" = "Regala a Keka un caffè ogni mese";
+"Monthly pair of coffees" = "Un paio di caffè al mese";
+"Gift Keka a couple coffees each month" = "Regala a Keka un paio di caffè ogni mese";
+"Monthly breakfast" = "Colazione mensile";
+"Gift Keka a breakfast each month" = "Regala a Keka una colazione ogni mese";
+"Tip a coffee" = "Invita a bere un caffè";
+"Tip Keka a coffee so it can stay awake" = "Dai un caffè a Keka così non s'addormenta";
+"Tip a breakfast" = "Invita ad una colazione";
+"Tip Keka a breakfast so it can start fresh" = "Invita Keka a colazione per iniziare bene";
+"Tip a lunch" = "Regala un pranzo";
+"Tip Keka a lunch and feed it" = "Dai da mangiare a Keka per nutrirlo";
+"Tip a dinner" = "Regala una cena";
+"Tip Keka a dinner so it keeps rolling" = "Dai una cena a Keka così continua a rotolare";
+"Tip a bunch of food" = "Regala una manciata di cibo";
+"Tip Keka a new bunch of food to keep rolling" = "Dai a Keka una grossa manciata di cibo";

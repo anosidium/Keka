@@ -1,7 +1,14 @@
+
 "_BASE_USED_" = "ja";
 /* Use the _ADVANCED_EXTRA_WIDTH_ (if needed) to fit the method description properly */
 "_ADVANCED_EXTRA_WIDTH_" = "0.0";
-/* "_PREFERENCES_EXTRA_WIDTH_" = "0.0"; */
+/* Use the _PREFERENCES_EXTRA_WIDTH_ (if needed) to fit the action to perform description properly */
+"_PREFERENCES_EXTRA_WIDTH_" = "0.0";
+"General" = "一般";
+"File Access" = "ファイルアクセス";
+"Performance" = "Performance";
+"Finder Extension" = "Finder Extension";
+"Love" = "Love";
 "OK" = "OK";
 "Done" = "OK";
 "Yes" = "はい";
@@ -25,6 +32,7 @@
 "File \"%@\" created" = "ファイル \"%@\" は作成されました";
 "Compression fail" = "圧縮できませんでした";
 "File \"%@\" cannot be created" = "ファイル \"%@\" は作成できません。";
+"\n(using fallback folder)" = "\n(using fallback folder)";
 "Operation not implemented" = "機能が実装されていません。";
 "Performing operation..." = "操作中...";
 "Waiting..." = "待機中...";
@@ -38,9 +46,9 @@
 "Time elapsed: %d:%@%d:%@%d hours%@" = "経過時間:  %d時間%@%d分%@%d秒%@";
 "Time elapsed: %d:%@%d minutes%@" = "経過時間:  %d分%@%d秒%@";
 "Time elapsed: %d seconds%@" = "経過時間:  %d秒%@";
-"%d seconds" = "%d秒";
-"%d:%@%d minutes" = "%d分%@%d秒";
-"%d:%@%d:%@%d hours" = "%d時間%@%d分%@%d秒";
+"%.0f seconds" = "%.0f秒";
+"%i:%02i minutes" = "%i:%02i分";
+"%i:%02i:%02i hours" = "%i:%02i:%02i時間";
 "Pause" = "一時中止";
 "Continue" = "続ける";
 "Operation paused" = "動作一時停止";
@@ -51,7 +59,7 @@
 "Choose a name and folder to start the compression" = "フォルダとファイル名を指定すると圧縮が開始されます。";
 "Creation of \"%@\" failed" = "\"%@\" を作成できませんでした。";
 "Creating \"%@\"" = "\"%@\"を作成中";
-"Prepearing extraction..." = "解凍の準備をしています…";
+"Preparing extraction..." = "解凍の準備をしています…";
 "Choose a folder to extract this file" = "解凍先のフォルダを選んでください";
 "Choose where do you want to extract \"%@\"" = "Choose where do you want to extract \"%@\"";
 "Select all the volumes from \"%@\" or the folder that contains them" = "Select all the volumes from \"%@\" or the folder that contains them";
@@ -69,20 +77,24 @@
 "Extract \"%@\" to..." = "\"%@\"の解凍場所未設定";
 "Extract as:" = "名前:";
 "Extract" = "解凍";
-" - Remaining: Calculating..." = "  -  残り時間: 計算中...";
-" - Remaining: About one second" = "  -  残り時間: 約1秒";
-" - Remaining: About %d seconds" = "  -  残り時間: 約%d秒";
-" - Remaining: About 1 minute" = "  -  残り時間: 約1分";
-" - Remaining: About %d minutes" = "  -  残り時間: 約%d分";
-" - Remaining: About 1 hour" = "  -  残り時間: 約1時間";
-" - Remaining: About %d hours" = "  -  残り時間: 約%d時間";
-" - Remaining: About 1 day" = "  -  残り時間: 約1日";
-" - Remaining: About %d days" = "  -  残り時間: 約%d日";
-" - Remaining: About 1 year" = "  -  残り時間: 約1年間";
-" - Remaining: About %d years" = "  -  残り時間: 約%d年間";
-" - Remaining: Less than one second" = "  -  残り時間: 1秒未満";
+"About %i seconds" = "約%i秒";
+"About %i minutes" = "約%i分";
+"About %i hours" = "約%i時間";
+"About %i days" = "約%i日";
+"About %i weeks" = "約%i週間";
+"About %i months" = "約%i月";
+"About %i years" = "約%i年間";
+"About a minute" = "約1分";
+"About an hour" = "約1時間";
+"About a day" = "約1日";
+"About a week" = "約1週間";
+"About a month" = "約1月";
+"About a year" = "約1年間";
+"Finishing..." = "Finishing...";
 "Can't show progress time..." = "進行時間が表示できません…";
 "Password for \"%@\"" = "\"%@\"用のパスワードを入力してください";
+"Format" = "圧縮形式";
+"Method" = "圧縮法";
 "Method:" = "圧縮法:";
 "No compression" = "圧縮しない";
 "Fastest, less compression" = "最も早い、圧縮率は最も低い";
@@ -99,7 +111,7 @@
 "Custom folder..." = "フォルダ名を指定...";
 "Same as original file" = "オリジナルファイルと同じ";
 "Custom name..." = "ファイル名を指定...";
-"Compressed file" = "圧縮ファイル";
+"Archive" = "アーカイブ";
 "Set as default folder" = "フォルダのデフォルトとして設定";
 "Perform automatic action" = "自動";
 "Always compress" = "常に圧縮する";
@@ -112,9 +124,11 @@
 "Drop here to compress" = "ここにドラッグすると圧縮します";
 "Binary \"%@\" is not accessible" = "Binary \"%@\" is not accessible";
 "The first part \"%@\" can't be found" = "\"%@\" の最初の部分が見つかりません。";
+"Unable to extract a folder" = "Unable to extract a folder";
 "unknown" = "不明";
 "Unknown error" = "不明なエラーが起きました";
 "Error code %d using \"%@\"\n%@" = "エラーコード %d\n\"%@\"を使用中に%@";
+"Keka was unable to create the extraction package" = "Keka was unable to create the extraction package";
 "No errors found" = "エラーは見つかりませんでした";
 "Minor error, the operation may be done well" = "小さな問題が見つかりましたが、操作は成功した可能性はあります。";
 "Fatal error" = "回復不可能なエラーが起きました";
@@ -131,6 +145,7 @@
 "Write error. No permission? No space left?" = "書き込みエラー、書くアクセス権とディスクに十分な空き領域があることを確認してください。";
 "Can't open the file, maybe it's not accessible" = "ファイルを開くことができません。ファイルがあるボリュームにアクセスできない可能性があります。";
 "No files matching the mask" = "マスクに合うファイルがありません。";
+"There were some read errors" = "There were some read errors";
 "Give access" = "Give access";
 "Just folder access" = "Just folder access";
 "Quit" = "Quit";
@@ -138,15 +153,22 @@
 "Keka needs file access" = "Keka needs file access";
 "Give home access" = "Give home access";
 "Customize" = "Customize";
+"Keka needs access to the source file/s." = "Keka needs access to the source file/s.";
 "In order to work seamlessly with your files, Keka needs local access to the Mac disk." = "In order to work seamlessly with your files, Keka needs local access to the Mac disk.";
 "\nSimply click on \"Give access to Keka\", your disk should already be selected." = "\nSimply click on \"Give access to Keka\", your disk should already be selected.";
 "Give access to Keka" = "Give access to Keka";
 "Full Mac access (Recommended)" = "Full Mac access (Recommended)";
 "Home folder access" = "Home folder access";
 "External volumes access" = "External volumes access";
+"Full Mac" = "Full Mac";
+"Home folder" = "Home folder";
+"External volumes" = "External volumes";
+"Show in context menu" = "Show in context menu";
 "External disk: %@" = "External disk: %@";
 "An extension is required" = "An extension is required";
 "In order to set Keka as the default application, you need to install an extension. Click on \"More information\" to follow the required steps.\n\nRemember that you can always set Keka as the default application for any format using the Finder's \"Get Info\" panel." = "In order to set Keka as the default application, you need to install an extension. Click on \"More information\" to follow the required steps.\n\nRemember that you can always set Keka as the default application for any format using the Finder's \"Get Info\" panel.";
+"Your installed extension is obsolete and you should update it." = "Your installed extension is obsolete and you should update it.";
+"Update" = "Update";
 "Cannot set Keka as default" = "Cannot set Keka as default";
 "The intermediate application failed to launch. There is more information in the Console.app." = "The intermediate application failed to launch. There is more information in the Console.app.";
 "The intermediate application returned an undefined code." = "The intermediate application returned an undefined code.";
@@ -155,3 +177,76 @@
 "There were some errors while registering the formats. There is more information in the Console.app." = "There were some errors while registering the formats. There is more information in the Console.app.";
 "The intermediate application can't get access to Keka." = "The intermediate application can't get access to Keka.";
 "The intermediate application can't find Keka." = "The intermediate application can't find Keka.";
+"Show in Finder" = "Show in Finder";
+"Delete" = "Delete";
+"Continue without encryption" = "Continue without encryption";
+"The password does not match" = "The password does not match";
+"The password is not properly set and the file cannot be encrypted. You can cancel and set the password again or continue the process without encryption." = "The password is not properly set and the file cannot be encrypted. You can cancel and set the password again or continue the process without encryption.";
+"Use legacy encryption" = "Use legacy encryption";
+"Using AES-256 encryption in ZIP" = "Using AES-256 encryption in ZIP";
+"Note that most modern operating systems such as macOS (before macOS 11.0 Big Sur) or Windows do not support AES-256 encrypted ZIPs by default.\n\nYou can open those files easily with most third party extraction utilities." = "Note that most modern operating systems such as macOS (before macOS 11.0 Big Sur) or Windows do not support AES-256 encrypted ZIPs by default.\n\nYou can open those files easily with most third party extraction utilities.";
+"Cannot create the file" = "Cannot create the file";
+"Keka has no file access to the source file/s\nGive it access when asked or manually in the Preferences" = "Keka has no file access to the source file/s\nGive it access when asked or manually in the Preferences";
+"Give access to the source/s folder/s" = "Give access to the source/s folder/s";
+"Give access to the compressed file" = "Give access to the compressed file";
+"The extension is enabled" = "The extension is enabled";
+"The extension is disabled" = "The extension is disabled";
+"Enable or disable the extension" = "Enable or disable the extension";
+"Keka will decide whether to compress or uncompress based on file format and extension. This is the recommended option." = "Keka will decide whether to compress or uncompress based on file format and extension. This is the recommended option.";
+"Keka will compress all files, even those that are already compressed. You can compress an already compressed file in automatic mode by dropping it to the bottom part of the drop zone." = "Keka will compress all files, even those that are already compressed. You can compress an already compressed file in automatic mode by dropping it to the bottom part of the drop zone.";
+"Keka will try to extract all files. You can try to extract an unknown file in automatic mode by dropping it in the bottom part of the drop zone." = "Keka will try to extract all files. You can try to extract an unknown file in automatic mode by dropping it in the bottom part of the drop zone.";
+"Show the operation log" = "Show the operation log";
+"Unable to process tips" = "Unable to process tips";
+"Already tipping a monthly %@" = "Already tipping a monthly %@";
+"Send a monthly %@ tip" = "Send a monthly %@ tip";
+"Send a %@ tip" = "Send a %@ tip";
+"Give Keka some love ♥" = "Give Keka some love ♥";
+"All extractions will be expanded at this location." = "All extractions will be expanded at this location.";
+"All compressions will be stored at this location." = "All compressions will be stored at this location.";
+"You'll be asked where to extract each operation." = "You'll be asked where to extract each operation.";
+"You'll be asked where to compress each operation." = "You'll be asked where to compress each operation.";
+"If Keka has File Access it will execute the operation near the source file/s, otherwise it will ask for a location. You can set Keka's File Access in the Preferences tab so this option works properly." = "If Keka has File Access it will execute the operation near the source file/s, otherwise it will ask for a location. You can set Keka's File Access in the Preferences tab so this option works properly.";
+"Keka has no file access to the destination folder so it needs to ask for a location.\nYou can add access to this and other folders in Keka's Preferences File Access pane." = "Keka has no file access to the destination folder so it needs to ask for a location.\nYou can add access to this and other folders in Keka's Preferences File Access pane.";
+"The characters %@ are not compatible with the %@ format" = "The characters %@ are not compatible with the %@ format";
+"The character %@ is not compatible with the %@ format" = "The character %@ is not compatible with the %@ format";
+"Stop compressing" = "Stop compressing";
+"Stop extracting" = "Stop extracting";
+"Resume compressing" = "Resume compressing";
+"Resume extracting" = "Resume extracting";
+"Pause compressing" = "Pause compressing";
+"Pause extracting" = "Pause extracting";
+"Compression paused" = "Compression paused";
+"Extraction paused" = "Extraction paused";
+"Waiting for password" = "Waiting for password";
+"On queue" = "On queue";
+"Applying quarantine..." = "Applying quarantine...";
+"%@.\n\nPlease get in contact with the developers." = "%@.\n\n開発者に連絡してください。";
+"Report" = "Report";
+"Report via mail" = "Report via mail";
+
+/*
+// MAS tips
+// Note this will be used in Apple's servers
+// Apple needs to have MAS translated in this language so this strings can be used
+// The language used in MAS/AppleID will be used in Keka's tip strings and may not match Keka's localization
+// Note that the short string is limited to 30 characters and the long string is limited to 45 characters
+// Emojis cannot be used in these strings :(
+*/
+"Monthly sip of coffee" = "Monthly sip of coffee";
+"Gift Keka a sip of coffee each month" = "Gift Keka a sip of coffee each month";
+"Monthly coffee" = "Monthly coffee";
+"Gift Keka a coffee each month" = "Gift Keka a coffee each month";
+"Monthly pair of coffees" = "Monthly pair of coffees";
+"Gift Keka a couple coffees each month" = "Gift Keka a couple coffees each month";
+"Monthly breakfast" = "Monthly breakfast";
+"Gift Keka a breakfast each month" = "Gift Keka a breakfast each month";
+"Tip a coffee" = "Tip a coffee";
+"Tip Keka a coffee so it can stay awake" = "Tip Keka a coffee so it can stay awake";
+"Tip a breakfast" = "Tip a breakfast";
+"Tip Keka a breakfast so it can start fresh" = "Tip Keka a breakfast so it can start fresh";
+"Tip a lunch" = "Tip a lunch";
+"Tip Keka a lunch and feed it" = "Tip Keka a lunch and feed it";
+"Tip a dinner" = "Tip a dinner";
+"Tip Keka a dinner so it keeps rolling" = "Tip Keka a dinner so it keeps rolling";
+"Tip a bunch of food" = "Tip a bunch of food";
+"Tip Keka a new bunch of food to keep rolling" = "Tip Keka a new bunch of food to keep rolling";

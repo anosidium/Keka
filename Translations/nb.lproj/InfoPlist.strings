@@ -1,5 +1,13 @@
-// Usually leave this one in English
-"NSHumanReadableCopyright" = "Copyright © 2009-2019 aONe";
+
+/* Usually leave this one in English */
+"NSHumanReadableCopyright" = "Copyright © 2009-2021 aONe";
+
+/* Access request descriptions */
+"NSDesktopFolderUsageDescription" = "Keka requires Desktop access to work with it's files.";
+"NSDocumentsFolderUsageDescription" = "Keka requires Documents access to work with it's files.";
+"NSDownloadsFolderUsageDescription" = "Keka requires Downloads access to work with it's files.";
+"NSNetworkVolumesUsageDescription" = "Keka requires network volumes access to work with it's files.";
+"NSRemovableVolumesUsageDescription" = "Keka requires removable volumes access to work with it's files.";
 
 /* File types */
 "7Z Archive" = "7Z-arkiv";
@@ -12,6 +20,10 @@
 "ZIPX Archive" = "ZIPX-arkiv";
 "XZ Archive" = "XZ-arkiv";
 "XZ Tarball Archive" = "XZ Tarball-arkiv";
+"Brotli Archive" = "Brotli-arkiv";
+"Brotli Tarball Archive" = "Brotli Tarball-arkiv";
+"Zstandard Archive" = "Zstandard-arkiv";
+"Zstandard Tarball Archive" = "Zstandard Tarball-arkiv";
 "RAR Archive" = "RAR-arkiv";
 "RAR Legacy Archive Volume" = "Foreldet RAR-arkivvolum";
 "Generic Archive Volume" = "Generisk arkivvolum";
@@ -22,6 +34,8 @@
 "GZIP Archive" = "GZIP-arkiv";
 "GZIP Tarball Archive" = "GZIP Tarball-arkiv";
 "TAR Archive" = "TAR-arkiv";
+"LRZIP Archive" = "LRZIP-arkiv";
+"LRZIP Tarball Archive" = "LRZIP Tarball-arkiv";
 "CPIO Archive" = "CPIO-arkiv";
 "CPGZ Archive" = "CPGZ-arkiv";
 "PAX Archive" = "PAX-arkiv";
@@ -29,7 +43,8 @@
 "ISO Disk Image" = "ISO-diskbilde";
 "LHA Archive" = "LHA-arkiv";
 "Windows EXE File" = "Windows EXE-fil";
-"Window Cabinet File" = "Window Cabinet-fil";
+"Windows Cabinet File" = "Windows Cabinet-fil";
+"Windows Installer Package" = "Windows-installeringspakke";
 "WIM Disk Image" = "WIM-diskbilde";
 "Comic Book RAR Archive" = "Tegneseriebok-RAR-arkiv";
 "Comic Book ZIP Archive" = "Tegneseriebok-ZIP-arkiv";
@@ -39,4 +54,7 @@
 "Android Application Package" = "Android-appakke";
 "Cross-Platform Installer Module (XPI)" = "Cross-Platform Installer Module (XPI)";
 "APPX Archive" = "APPX-arkiv";
-"Keka WorkFlow" = "Keka-arbeidsflyt";
+"Safari extension" = "Safari-utvidelse";
+"ACE Archive" = "ACE-arkiv";
+"XIP Secure Archive" = "Sikkert XIP-arkiv";
+"Keka Extraction Package" = "Keka-utpakkingspakke";

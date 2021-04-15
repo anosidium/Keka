@@ -1,7 +1,14 @@
+
 "_BASE_USED_" = "en";
 /* Use the _ADVANCED_EXTRA_WIDTH_ (if needed) to fit the method description properly */
 "_ADVANCED_EXTRA_WIDTH_" = "20.0";
-/* "_PREFERENCES_EXTRA_WIDTH_" = "0.0"; */
+/* Use the _PREFERENCES_EXTRA_WIDTH_ (if needed) to fit the action to perform description properly */
+"_PREFERENCES_EXTRA_WIDTH_" = "40.0";
+"General" = "Allmänt";
+"File Access" = "Filåtkomst";
+"Performance" = "Performance";
+"Finder Extension" = "Finder Extension";
+"Love" = "Love";
 "OK" = "OK";
 "Done" = "Färdig";
 "Yes" = "Ja";
@@ -25,6 +32,7 @@
 "File \"%@\" created" = "Filen \"%@\" skapades";
 "Compression fail" = "Komprimering misslyckades";
 "File \"%@\" cannot be created" = "Filen \"%@\" kan inte skapas";
+"\n(using fallback folder)" = "\n(using fallback folder)";
 "Operation not implemented" = "Åtgärden är inte implementerad";
 "Performing operation..." = "Genomför åtgärd...";
 "Waiting..." = "Väntar...";
@@ -38,9 +46,9 @@
 "Time elapsed: %d:%@%d:%@%d hours%@" = "Förfluten tid: %d:%@%d:%@%d timmar%@";
 "Time elapsed: %d:%@%d minutes%@" = "Förfluten tid: %d:%@%d minuter%@";
 "Time elapsed: %d seconds%@" = "Förfluten tid: %d sekunder%@";
-"%d seconds" = "%d sekunder";
-"%d:%@%d minutes" = "%d:%@%d minuter";
-"%d:%@%d:%@%d hours" = "%d:%@%d:%@%d timmar";
+"%.0f seconds" = "%.0f sekunder";
+"%i:%02i minutes" = "%i:%02i minuter";
+"%i:%02i:%02i hours" = "%i:%02i:%02i timmar";
 "Pause" = "Paus";
 "Continue" = "Fortsätt";
 "Operation paused" = "Åtgärden pausad";
@@ -51,7 +59,7 @@
 "Choose a name and folder to start the compression" = "Välj ett namn och mapp för att påbörja komprimering";
 "Creation of \"%@\" failed" = "Skapandet av \"%@\" misslyckades";
 "Creating \"%@\"" = "Skapar \"%@\"";
-"Prepearing extraction..." = "Förbereder extrahering…";
+"Preparing extraction..." = "Förbereder extrahering…";
 "Choose a folder to extract this file" = "Välj en mapp för att extrahera denna fil";
 "Choose where do you want to extract \"%@\"" = "Välj var du vill extrahera \"%@\"";
 "Select all the volumes from \"%@\" or the folder that contains them" = "Välj alla volymer från \"%@\" eller mappen som innehåller dem";
@@ -69,20 +77,24 @@
 "Extract \"%@\" to..." = "Extrahera \"%@\" till…";
 "Extract as:" = "Extrahera som:";
 "Extract" = "Extrahera";
-" - Remaining: Calculating..." = " - Återstår: Beräknar...";
-" - Remaining: About one second" = " - Återstår: Ungefär en sekund";
-" - Remaining: About %d seconds" = " - Återstår: Ungefär %d sekunder";
-" - Remaining: About 1 minute" = " - Återstår: Ungefär 1 minut";
-" - Remaining: About %d minutes" = " - Återstår: Ungefär %d minuter";
-" - Remaining: About 1 hour" = " - Återstår: Ungefär 1 timme";
-" - Remaining: About %d hours" = " - Återstår: Ungefär %d timmar";
-" - Remaining: About 1 day" = " - Återstår: Ungefär 1 dygn";
-" - Remaining: About %d days" = " - Återstår: Ungefär %d dygn";
-" - Remaining: About 1 year" = " - Återstår: Ungefär 1 år";
-" - Remaining: About %d years" = " - Återstår: Ungefär %d år";
-" - Remaining: Less than one second" = " - Återstår: Mindre än en sekund";
+"About %i seconds" = "Ungefär %i sekunder";
+"About %i minutes" = "Ungefär %i minuter";
+"About %i hours" = "Ungefär %i timmar";
+"About %i days" = "Ungefär %i dygn";
+"About %i weeks" = "Ungefär %i veckor";
+"About %i months" = "Ungefär %i månader";
+"About %i years" = "Ungefär %i år";
+"About a minute" = "Ungefär 1 minut";
+"About an hour" = "Ungefär 1 timme";
+"About a day" = "Ungefär 1 dygn";
+"About a week" = "Ungefär 1 vecka";
+"About a month" = "Ungefär 1 månad";
+"About a year" = "Ungefär 1 år";
+"Finishing..." = "Finishing...";
 "Can't show progress time..." = "Kan inte visa återstående tid…";
 "Password for \"%@\"" = "Lösenord för \"%@\"";
+"Format" = "Format";
+"Method" = "Metod";
 "Method:" = "Metod:";
 "No compression" = "Ingen komprimering";
 "Fastest, less compression" = "Snabbast, mindre komprimering";
@@ -99,7 +111,7 @@
 "Custom folder..." = "Anpassad mapp...";
 "Same as original file" = "Samma som ursprungsfilen";
 "Custom name..." = "Anpassat namn...";
-"Compressed file" = "Komprimerad fil";
+"Archive" = "Arkiv";
 "Set as default folder" = "Ställ in som standardmapp";
 "Perform automatic action" = "Genomför automatisk åtgärd";
 "Always compress" = "Komprimera alltid";
@@ -112,9 +124,11 @@
 "Drop here to compress" = "Släpp här för att komprimera";
 "Binary \"%@\" is not accessible" = "Binärfilen \"%@\" är inte åtkomlig";
 "The first part \"%@\" can't be found" = "Första delen \"%@\" kunde inte hittas";
+"Unable to extract a folder" = "Unable to extract a folder";
 "unknown" = "okänd";
 "Unknown error" = "Okänt fel";
 "Error code %d using \"%@\"\n%@" = "Felkod %d med \"%@\"\n%@";
+"Keka was unable to create the extraction package" = "Keka was unable to create the extraction package";
 "No errors found" = "Inga fel hittades";
 "Minor error, the operation may be done well" = "Mindre fel. Åtgärden kanske har genomförts";
 "Fatal error" = "Ödesdigert fel";
@@ -131,6 +145,7 @@
 "Write error. No permission? No space left?" = "Skrivfel. Saknar behörighet? Inget ledigt utrymme?";
 "Can't open the file, maybe it's not accessible" = "Kan inte öppna filen. Kanske är den inte åtkomlig";
 "No files matching the mask" = "Inga filer matchar söksträngen";
+"There were some read errors" = "There were some read errors";
 "Give access" = "Ge åtkomst";
 "Just folder access" = "Endast mappåtkomst";
 "Quit" = "Avsluta";
@@ -138,15 +153,22 @@
 "Keka needs file access" = "Keka behöver filåtkomst";
 "Give home access" = "Ge hemåtkomst";
 "Customize" = "Anpassa";
+"Keka needs access to the source file/s." = "Keka needs access to the source file/s.";
 "In order to work seamlessly with your files, Keka needs local access to the Mac disk." = "Keka behöver lokal åtkomst till Mac-disken för att fungera sömlöst med dina filer.";
 "\nSimply click on \"Give access to Keka\", your disk should already be selected." = "\nKlicka helt enkelt på \"Ge åtkomst till Keka\". Din disk bör redan vara vald.";
 "Give access to Keka" = "Ge åtkomst till Keka";
 "Full Mac access (Recommended)" = "Fullständig Mac-åtkomst (Rekommenderas)";
 "Home folder access" = "Åtkomst till hemmapp";
 "External volumes access" = "Åtkomst till externa volymer";
+"Full Mac" = "Full Mac";
+"Home folder" = "Home folder";
+"External volumes" = "External volumes";
+"Show in context menu" = "Show in context menu";
 "External disk: %@" = "Extern disk: %@";
 "An extension is required" = "Ett tillägg krävs";
 "In order to set Keka as the default application, you need to install an extension. Click on \"More information\" to follow the required steps.\n\nRemember that you can always set Keka as the default application for any format using the Finder's \"Get Info\" panel." = "Du behöver installera ett tillägg för att ställa in Leka som standardprogram. Klicka på \"Mer information\" och följ instruktionerna.\n\nKom ihåg att du alltid kan ställa in Keka som standardprogram för valfria format med \"Visa info\"-panelen i Finder.";
+"Your installed extension is obsolete and you should update it." = "Your installed extension is obsolete and you should update it.";
+"Update" = "Update";
 "Cannot set Keka as default" = "Kan inte ställa in Keka som standardprogram";
 "The intermediate application failed to launch. There is more information in the Console.app." = "Det mellanliggande programmet gick inte att starta. Det finns mer information i Console.app.";
 "The intermediate application returned an undefined code." = "Det mellanliggande programmet returnerade en odefinierad kod.";
@@ -155,3 +177,76 @@
 "There were some errors while registering the formats. There is more information in the Console.app." = "Det inträffade några fel vid registrering av filformat. Det finns mer information i Console.app.";
 "The intermediate application can't get access to Keka." = "Det mellanliggande programmet kunde inte få åtkomst till Keka.";
 "The intermediate application can't find Keka." = "Det mellanliggande programmet kunde inte hitta Keka.";
+"Show in Finder" = "Show in Finder";
+"Delete" = "Delete";
+"Continue without encryption" = "Continue without encryption";
+"The password does not match" = "The password does not match";
+"The password is not properly set and the file cannot be encrypted. You can cancel and set the password again or continue the process without encryption." = "The password is not properly set and the file cannot be encrypted. You can cancel and set the password again or continue the process without encryption.";
+"Use legacy encryption" = "Use legacy encryption";
+"Using AES-256 encryption in ZIP" = "Using AES-256 encryption in ZIP";
+"Note that most modern operating systems such as macOS (before macOS 11.0 Big Sur) or Windows do not support AES-256 encrypted ZIPs by default.\n\nYou can open those files easily with most third party extraction utilities." = "Note that most modern operating systems such as macOS (before macOS 11.0 Big Sur) or Windows do not support AES-256 encrypted ZIPs by default.\n\nYou can open those files easily with most third party extraction utilities.";
+"Cannot create the file" = "Cannot create the file";
+"Keka has no file access to the source file/s\nGive it access when asked or manually in the Preferences" = "Keka has no file access to the source file/s\nGive it access when asked or manually in the Preferences";
+"Give access to the source/s folder/s" = "Give access to the source/s folder/s";
+"Give access to the compressed file" = "Give access to the compressed file";
+"The extension is enabled" = "The extension is enabled";
+"The extension is disabled" = "The extension is disabled";
+"Enable or disable the extension" = "Enable or disable the extension";
+"Keka will decide whether to compress or uncompress based on file format and extension. This is the recommended option." = "Keka will decide whether to compress or uncompress based on file format and extension. This is the recommended option.";
+"Keka will compress all files, even those that are already compressed. You can compress an already compressed file in automatic mode by dropping it to the bottom part of the drop zone." = "Keka will compress all files, even those that are already compressed. You can compress an already compressed file in automatic mode by dropping it to the bottom part of the drop zone.";
+"Keka will try to extract all files. You can try to extract an unknown file in automatic mode by dropping it in the bottom part of the drop zone." = "Keka will try to extract all files. You can try to extract an unknown file in automatic mode by dropping it in the bottom part of the drop zone.";
+"Show the operation log" = "Show the operation log";
+"Unable to process tips" = "Unable to process tips";
+"Already tipping a monthly %@" = "Already tipping a monthly %@";
+"Send a monthly %@ tip" = "Send a monthly %@ tip";
+"Send a %@ tip" = "Send a %@ tip";
+"Give Keka some love ♥" = "Give Keka some love ♥";
+"All extractions will be expanded at this location." = "All extractions will be expanded at this location.";
+"All compressions will be stored at this location." = "All compressions will be stored at this location.";
+"You'll be asked where to extract each operation." = "You'll be asked where to extract each operation.";
+"You'll be asked where to compress each operation." = "You'll be asked where to compress each operation.";
+"If Keka has File Access it will execute the operation near the source file/s, otherwise it will ask for a location. You can set Keka's File Access in the Preferences tab so this option works properly." = "If Keka has File Access it will execute the operation near the source file/s, otherwise it will ask for a location. You can set Keka's File Access in the Preferences tab so this option works properly.";
+"Keka has no file access to the destination folder so it needs to ask for a location.\nYou can add access to this and other folders in Keka's Preferences File Access pane." = "Keka has no file access to the destination folder so it needs to ask for a location.\nYou can add access to this and other folders in Keka's Preferences File Access pane.";
+"The characters %@ are not compatible with the %@ format" = "The characters %@ are not compatible with the %@ format";
+"The character %@ is not compatible with the %@ format" = "The character %@ is not compatible with the %@ format";
+"Stop compressing" = "Stop compressing";
+"Stop extracting" = "Stop extracting";
+"Resume compressing" = "Resume compressing";
+"Resume extracting" = "Resume extracting";
+"Pause compressing" = "Pause compressing";
+"Pause extracting" = "Pause extracting";
+"Compression paused" = "Compression paused";
+"Extraction paused" = "Extraction paused";
+"Waiting for password" = "Waiting for password";
+"On queue" = "On queue";
+"Applying quarantine..." = "Applying quarantine...";
+"%@.\n\nPlease get in contact with the developers." = "%@.\n\nKontakta utvecklarna.";
+"Report" = "Report";
+"Report via mail" = "Report via mail";
+
+/*
+// MAS tips
+// Note this will be used in Apple's servers
+// Apple needs to have MAS translated in this language so this strings can be used
+// The language used in MAS/AppleID will be used in Keka's tip strings and may not match Keka's localization
+// Note that the short string is limited to 30 characters and the long string is limited to 45 characters
+// Emojis cannot be used in these strings :(
+*/
+"Monthly sip of coffee" = "Monthly sip of coffee";
+"Gift Keka a sip of coffee each month" = "Gift Keka a sip of coffee each month";
+"Monthly coffee" = "Monthly coffee";
+"Gift Keka a coffee each month" = "Gift Keka a coffee each month";
+"Monthly pair of coffees" = "Monthly pair of coffees";
+"Gift Keka a couple coffees each month" = "Gift Keka a couple coffees each month";
+"Monthly breakfast" = "Monthly breakfast";
+"Gift Keka a breakfast each month" = "Gift Keka a breakfast each month";
+"Tip a coffee" = "Tip a coffee";
+"Tip Keka a coffee so it can stay awake" = "Tip Keka a coffee so it can stay awake";
+"Tip a breakfast" = "Tip a breakfast";
+"Tip Keka a breakfast so it can start fresh" = "Tip Keka a breakfast so it can start fresh";
+"Tip a lunch" = "Tip a lunch";
+"Tip Keka a lunch and feed it" = "Tip Keka a lunch and feed it";
+"Tip a dinner" = "Tip a dinner";
+"Tip Keka a dinner so it keeps rolling" = "Tip Keka a dinner so it keeps rolling";
+"Tip a bunch of food" = "Tip a bunch of food";
+"Tip Keka a new bunch of food to keep rolling" = "Tip Keka a new bunch of food to keep rolling";
